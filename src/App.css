@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+
+  max-width: 500px;
+  border: 2px solid rgb(44, 44, 51);
+  margin: 30px auto;
+  min-height: 300px;
+  padding: 30px;
+}
+
+.header{
+
+  background-color: white;
+  display:flex;
+  justify-content: space-between;
+  margin:15px 15px 15px 15px;
+  width:100%;
+  /* width:90%; */
+}
+
+.header > h2{
+  color:black;
+}
+
+
+.btn{
+
+  border:none;
+  /* background-color:red;*/
+  color:white;
+  margin:20px 10px 20px 10px;
+  border-color: transparent;
+  
+}
+
+
+
+form{
+  /* width:100%; */
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(2,1fr); 
+  margin-left: 10px;
+  grid-gap: 30px;
+  
+}
+
+.text-box{
+  height: 40px;
+  font-size:17px;
+  width:100%;
+}
+
+.form-control-1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(1,1fr);
+}
+
+.form-control-btn{
+  display: grid;
+ 
+}
+
+.btn-task{
+
+  background-color: #000;
+  color:#fff;
+  border:none;
+  padding:10px 20px;
+  margin:5px;
+  border-radius:5px;
+  width:100%;
+}
+
+.view-task{
+  margin-left: 10px;
+}
+
+.show-tasks{
+  background-color: rgb(194, 199, 194);
+  width:100%;
+}
+
+.show-tasks > p{
+  margin-left:10px;
+}
+
+.inline-select{
+  display: flex;
+  justify-content: space-between;
+  margin-left:10px;
+}
